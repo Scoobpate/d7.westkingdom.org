@@ -1,0 +1,109 @@
+/* This file will hold the main styles for your website. */
+
+body {
+  background: transparent url(wk_img/chrome/wk_mainbg.png) 50% 0% repeat;
+}
+
+#inner-wrapper {
+  background: #fff;
+}
+
+#edge_l
+{
+  background: url('wk_img/chrome/border_vert_or_l.png') 0% 0% repeat-y;
+}
+
+#edge_r
+{
+  background: url('wk_img/chrome/border_vert_or_r.png') 100% 0% repeat-y;
+}
+
+#supporter-wrapper
+{
+  margin: 0px -175px 0 -175px;
+  /* Negative margin adjustment: needed for IE7+, innocuous for other browsers */
+  min-height: 0;
+}
+
+/*
+// Negative margin hack:
+//
+// The "* html" selector hides the code below
+// for all browsers except IE6 and lower; the
+// "mac hide" hack hides the hack from IE on the
+// mac, which handles min-height correctly.
+//
+// See http://www.search-this.com/2007/08/01/the-positive-side-of-negative-margins/
+//
+// More comments on the box model hack:
+//
+// http://htmlfixit.com/contribs/MS_conditional_tags.html
+// http://htmlfixit.com/tutes/tutorial_Internet_Explorer_Broken_Box_Model_Hack_and_Other_Alternatives.php
+//
+*/
+
+/* mac hide \*/
+* html #supporter-wrapper{height:1px;position:relative;}
+/* end hide */
+
+#supporter_l
+{
+  /* Negative margin adjustment: needed for IE7+, innocuous for other browsers */
+  min-height: 0;
+}
+
+#supporter_r
+{
+  /*margin: 0px -80px 0 -80px;*/
+  /* Negative margin adjustment: needed for IE7+, innocuous for other browsers */
+  min-height: 0;
+}
+
+#edge_l
+{
+  margin-left: 159px;
+  padding-left: 16px;
+  height: 100%;
+}
+
+#edge_r
+{
+  margin-right: 159px;
+  padding-right: 16px;
+  height: 100%;
+}
+
+/* mac hide \*/
+* html #supporter_l{height:1px;position:relative;}
+* html #supporter_r{height:1px;position:relative;}
+/* end hide */
+
+/*
+// This styling does not work well, because the site
+// slogan is inside a block that groups it with the
+// site name.
+//
+h6.site-slogan {
+    font-size: 9px;
+    text-align: right;
+    margin-right: 16px;
+    color: #846f23;
+    margin-top: -6px;
+    height: 6px;
+}
+*/
+
+#zone-user-wrapper {
+  background: #ffc43a;
+}
+
+#zone-branding-wrapper {
+  background: #ffc43a;
+}
+
+#zone-menu-wrapper {
+  background: #ffc43a;
+}
+
+#zone-header-wrapper {
+}
